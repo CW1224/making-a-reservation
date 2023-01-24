@@ -19,5 +19,6 @@ from awesomedishes import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.open_home_page, name='open_home_page')
+    path('', views.open_home_page, name='open_home_page'),
+    path('reservation/', views.make_a_booking, name='make_a_booking'),
 ]
