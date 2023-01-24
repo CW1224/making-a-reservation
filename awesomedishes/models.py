@@ -23,7 +23,7 @@ class Booking(models.Model):
     def __str__(self):
         return self.title
 
-class User(models.Model):
+class User_application(models.Model):
     user = models.TextField(max_length=50)
     password = models.CharField(max_length=50)
     first_name = models.CharField(max_length=30)
